@@ -1,0 +1,6 @@
+from django.forms import ModelForm
+from . models import Logo
+class work(ModelForm):
+    class Meta:
+        model = Logo
+        fields = '__all__'

@@ -1,0 +1,15 @@
+from django.shortcuts import render
+from django.http import HttpResponse
+def potti(request):
+    return render(request,'PURNAAPP/potti.html')
+def login(request):
+    return render(request,'PURNAAPP/login.html')
+def aboutme(request):
+    return render(request,'PURNAAPP/aboutme.html')
+
+def madhu(request):
+    return render(request,'PURNAAPP/madhu.html')
+
+def thankyou(request):
+    return render(request,'PURNAAPP/thankyou.html')
+

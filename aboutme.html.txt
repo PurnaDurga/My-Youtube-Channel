@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>About Us</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+background: #82E0AA;
+}
+/* Style the header */
+header {
+  background-color: #7FB3D5 ;
+  padding: 20px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 20%;
+  height: 300px; /* only for demonstration, should be removed */
+  background: #7FB3D5  ;
+  padding: 10px;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 80%;
+  background-color: #7FB3D5 ;
+  height: 300px; /* only for demonstration, should be removed */
+}
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* Style the footer */
+footer {
+  background-color:#0B0B61;
+  padding: 0px;
+  text-align: center;
+  color: white;
+}
+
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+
+  <center><h2>About Me</center></h2>
+
+<section>
+<nav></nav>
+  <article>
+    <h1>Description</h1>
+    <p>
+Hello all, I Am Purna, to entertain you guys am Coming up with My YouTube Channel, Please do Subscribe to Bezawada Durga and never miss a update from me  <br>
+</p>
+    <p>Details:<ul>
+     <li>Location-India</li>
+    </ul></p>
+
+  </article>
+</section>
+<footer>
+  <p style="color:powderblue;">mail: purna@gmail.com</p>
+</footer>
+</body>
+</html>

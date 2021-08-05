@@ -1,0 +1,10 @@
+from django.urls import path
+from . import views
+urlpatterns = [
+    path('', views.potti),
+    path('potti',views.potti),
+    path('aboutme',views.aboutme),
+    path('madhu',views.madhu),
+    path('thankyou',views.thankyou),
+    path('login',views.login),
+]

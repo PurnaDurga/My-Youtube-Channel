@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+{% load static %}
+<head>
+<title>YOUTUBE</title>
+<style>
+body{
+background-color: White;
+</style>
+</head>
+
+<body bgcolor='#FFEBCD' width='100%'>
+<table width="100%" bgcolor="white">
+<tr>
+    <td align="left"><img src="{%  static 'images/youtube2.png'%}" alt="my image" width="200" height="50"></td>
+    <td align="center"><input type="text" placeholder="Search here"></td>
+    <th><div id="menu"><ul>
+<li><a href="login">Login</a></li></ul>
+</div></th>
+    <th><img src="{%  static 'images/screencasting.jpg'%}" alt="my image" width="70" height="50"></th>
+    <th><img src="{%  static 'images/notification symbol.jpg'%}" alt="my image" width="70" height="50"></th>
+    <th><img src="{%  static 'images/Profile.jpg'%}" alt="my image" width="80" height="50"></th>
+</tr>
+</table>
+<img src="{% static 'images/topic.png'%}" alt="my image" width="90%" height="46%" align="right">
+<table  width="8%" bgcolor="white" height="1%">
+
+<tr>
+<th><img src="{%  static 'images/home.png'%}">Home</th>
+</tr>
+<tr>
+<th><a href="madhu">View Channel</a></th>
+</tr>
+<tr>
+<th><img src="{%  static 'images/explore.png'%}">Explore</th>
+</tr>
+<tr>
+<th><img src="{%  static 'images/subscription.png'%}">Subscriptions</th>
+</tr>
+<tr>
+<th><img src="{%  static 'images/library.png'%}">Library</th>
+</tr>
+<tr>
+<th><img src="{%  static 'images/history.png'%}">History</th>
+</tr>
+<tr>
+<th><img src="{%  static 'images/music.png'%}">Music</th>
+</tr>
+<tr>
+<th><img src="{%  static 'images/sports.png'%}">Sports</th>
+</tr>
+<tr>
+<th><img src="{%  static 'images/gaming.png'%}">Gaming</th>
+</tr>
+<tr>
+<th><img src="{%  static 'images/news.png'%}">News</th>
+</tr>
+<tr>
+<th><img src="{%  static 'images/fashion.png'%}">Fashion and Beauty</th>
+</tr>
+<tr>
+<th><img src="{%  static 'images/live.png'%}">Live</th>
+</tr>
+<tr>
+<th><img src="{%  static 'images/movies.png'%}">Movies</th>
+</tr>
+<tr>
+<th><img src="{%  static 'images/learning.png'%}">Learning</th>
+</tr>
+<tr>
+<th><img src="{%  static 'images/spotlight.png'%}">Spotlight</th>
+</tr>
+<tr>
+<th><img src="{%  static 'images/browse.png'%}">Browse channels</th>
+</tr>
+<tr>
+<th><img src="{%  static 'images/youtube premium.png'%}">Youtube premium</th>
+</tr>
+<tr>
+<th><img src="{%  static 'images/settings.png'%}">Settings</th>
+</tr>
+<tr>
+<th><img src="{%  static 'images/report.png'%}">Report history</th>
+</tr>
+<tr>
+<th><img src="{%  static 'images/help.png'%}">Help</th>
+</tr>
+<tr>
+<th><img src="{%  static 'images/send.png'%}">Send Feedback </th>
+</tr>
+<tr>
+<th> About us </th>
+</tr>
+</table>
+
+</body>
+</head>
+</html>

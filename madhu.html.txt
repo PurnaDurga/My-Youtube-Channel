@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+{% load static %}
+<html>
+<head>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<style>
+body{
+  font-family: Calibri, Helvetica, sans-serif;
+  background-color: white;
+}
+
+</style>
+</head>
+<body>
+<form>
+  <div class="container">
+   <h1><i>Durga from Bezawada</i></h1>
+</form>
+
+<br>
+<center>
+    <img src="{%  static 'images/10.png'%}" alt="my image" width="1000" height="300" border="4"></center><br>
+
+<hr>
+<img  src="{% static 'images/purna.png'%}" alt="my image" width="200" height="150" align="left" /><br>
+<p><h1><i>Purna Durga</i></h1>
+<p>100K subscribers</p>
+<div id="menu"><ul>
+<li><a href="aboutme">About Me</a></li>
+<li><a href="thankyou">Description</a></li></ul>
+</div>
+
+<br><br><br><br>
+<img src="{% static 'images/img1.png'%}" alt="my image" width="300" height="100" border="1" align="left"/>
+
+<table>
+<tr>
+   <th><font color="black"><a href="https://www.youtube.com/watch?v=2TISeuoVSKY">Nakkilesu Golusu</a></font></th>
+</tr>
+</table>
+<br><br><br><br><br><br><br>
+<img src="{% static 'images/img2.png'%}" alt="my image" width="300" height="100" border="1" align="left"/>
+
+<table>
+<tr>
+   <th><font color="black"><a href="https://www.youtube.com/watch?v=gX3jQkbBMdg">Katuka kanule</a></font></th>
+</tr>
+</table>
+<br><br><br><br><br><br><br><br>
+<img src="{% static 'images/img3.png'%}" alt="my image" width="300" height="100" border="1" align="left"/>
+
+<table>
+<tr>
+   <th><font color="black"><a href="https://www.youtube.com/watch?v=7_LTSvcoEK0">Panipuri Party</a></font></th>
+</tr>
+</table>
+
+<br><br><br><br><br><br><br><br>
+<img src="{% static 'images/img 4.png'%}" alt="my image" width="300" height="100" border="1" align="left"/>
+
+<table>
+<tr>
+   <th><font color="black"><a href="https://www.youtube.com/watch?v=8gkLK10ZnkQ">Tom and jerry</a></font></th>
+</tr>
+</table>
+
+</body>
+</html>
+
+
+
+
